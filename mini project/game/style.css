@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color:rgb(163, 153, 153);
+  }
+  
+  header {
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    margin-bottom: 10px;
+  }
+  
+  #score {
+    font-size: 18px;
+  }
+  
+  #game {
+    margin-bottom: 20px;
+  }
+  
+  .choice {
+    padding: 0;
+    margin-right: 10px;
+    background-color:rgb(99, 97, 95) ;
+    border-top-left-radius: 0%;
+    cursor: pointer;
+  }
+  
+  .choice img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  #result {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  

@@ -1,0 +1,133 @@
+.container {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f3f2f2;
+  border-radius: 10px;
+}
+body{
+  background-color:azure;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #79466d;
+  color: #676262;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color:#f9f9f9;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li:hover {
+  background-color:#f9f9f9 ;
+}
+
+button.delete {
+  background-color: #f44336;
+}
+
+button.edit {
+  background-color: #2196F3;
+}
+
+button.delete,
+button.edit {
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+/* ... existing CSS styles ... */
+
+.container {
+  /* ... existing styles ... */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  /* ... existing styles ... */
+  color: #333;
+}
+
+form {
+  /* ... existing styles ... */
+}
+
+input[type="text"] {
+  /* ... existing styles ... */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  /* ... existing styles ... */
+  background-color: #57b846;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #4ea63d;
+}
+
+li {
+  /* ... existing styles ... */
+  background-color: #e7e4e4;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+li:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+button.delete,
+button.edit {
+  /* ... existing styles ... */
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+button.delete:hover,
+button.edit:hover {
+  opacity: 0.8;
+}
